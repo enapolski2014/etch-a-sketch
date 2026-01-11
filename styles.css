@@ -1,0 +1,27 @@
+body{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    gap: 0px;
+    border: 1px, solid, black;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.newDiv {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    flex-grow: 0;
+}
