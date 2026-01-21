@@ -9,11 +9,11 @@ body{
 #container {
     display: flex;
     flex-wrap: wrap;
-    height: 640px;
-    width: 640px;
+    flex-direction: column;
+    height: 16rem;
+    max-width: 16rem;
     gap: 1px;
-    justify-content: center;
-    align-content: stretch;
+
 
 }
 
@@ -21,6 +21,8 @@ body{
     border: 1px, solid, black;
     box-sizing: border-box;
     padding: 0px;
-    flex: 0 0 40px;
+    margin: 0px;
+    width: 4rem;
+    height: 4rem;
 
 }
