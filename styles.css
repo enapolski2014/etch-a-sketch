@@ -9,10 +9,10 @@ body{
 #container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 16rem;
-    max-width: 16rem;
-    gap: 1px;
+    /* flex-direction: column; */
+    height: 600px;
+    width: 600px;
+
 
 
 }
@@ -24,5 +24,15 @@ body{
     margin: 0px;
     width: 4rem;
     height: 4rem;
+
+}
+
+/* putting some test styles down here while trying to figure out container & squares */
+.box {
+    border: 1px, solid, black;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    flex:0 1 33.3%;
 
 }
